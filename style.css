@@ -1,0 +1,290 @@
+head{
+  font-family: "Optima", "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", "Arial Narrow", sans-serif;
+}
+body{
+  font-family: "Optima", "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", "Arial Narrow", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  color: #333;
+  line-height: 1.6;
+}
+.Base{
+  content: box;
+  margin:10px;
+  padding:10px;
+  background-color: aliceblue;
+  overflow-x: hidden;
+  overflow-y:hidden;
+  flex-direction: column;
+  height:500px;
+  width:auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#BaseText{
+  content: box;
+  border-radius: 20px;
+  margin:10px;
+  padding:20px;
+  background-color: white;
+  position: relative;
+  height:400px;
+  width:480px;
+  left:430px;
+  right:auto;
+  top:auto;
+  bottom:380px;
+  font-size: large;
+  color:black;
+  flex-direction: column;
+  text-align:left;
+}
+
+.ImageBase{
+  position:relative;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  top:auto;
+}
+
+
+.Base h1{
+  color: black;
+}
+
+.Base p{
+  font-size: large;
+  letter-spacing: 2px;
+}
+
+.Prof{
+  background-color: white;
+  content:box;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 10px;
+  overflow-x:hidden;
+}
+
+.Prof h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+.Prof p{
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.P1 b{
+  font-size: 25px;
+}
+
+.CollegeImage{
+  background-image: url("https://i.pinimg.com/originals/15/35/52/1535521749b68b83d4114716ef9ad9eb.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: box;
+  width: auto;
+  height: 820px;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.CollegeImage h1{
+  font-size: 70px;
+  letter-spacing: 2px;
+}
+.CollegeImage p{
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+.Moscow{
+  background-color: white;
+  content:box;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  overflow-x: hidden;
+}
+
+.Moscow h1{
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.Russia{
+  background-color: white;
+  content:box;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  overflow-x: hidden;
+}
+
+.Russia h1{
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.Vladimir{
+  font-family: Optima, sans-serif;
+  background-color: white;
+  content:box;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  overflow-x: hidden;
+}
+
+.Vladimir h1{
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+#College{
+  content:box;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 60px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap&subset=cyrillic');
+* {
+    padding: 0;
+    box-sizing: border-box;    
+}
+.button-6 {
+  background: transparent;
+  border-width: 0;
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  transition: .3s;
+}
+.button-6 span {
+  display: block;
+  position: relative;
+  z-index: 3;
+  background: #41294a;
+  color: white;
+  padding: 0 30px;
+  line-height: 40px;
+}
+.button-6:before {
+  content: "";
+  position: absolute;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  left: -5px;
+  top: -5px;
+  background: #ff2c54;
+  z-index: 1;
+  transition: .4s ease-out;
+}
+.button-6:after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  right: -5px;
+  bottom: -5px;
+  background: #41ebdf;
+  transition: .4s ease-out .1s;
+}
+.button-6:hover:before {
+  transform: translate(5px, 5px);
+}
+.button-6:hover:after {
+  transform: translate(-5px, -5px);
+}
+
+.Dop{
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  letter-spacing: 2px;
+  overflow-x: hidden;
+  content:box;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 60px;
+  background-color: white;
+}
+.ImageDop{
+  position:relative;
+  left:0px;
+  right: 0px;
+  top: auto;
+  bottom: auto;
+}
+
+.Books{
+  background-color: white;
+  content:box;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  overflow-x: hidden;
+}
+.Books h1{
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+#Programm{
+  content:box;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 60px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap&subset=cyrillic');
+* {
+    padding: 0;
+    box-sizing: border-box;    
+}
+.button-7 {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+  font-family: monospace;
+  font-size: 16px;
+  color: #232323;
+}
+.button-7 span {
+  position: relative;
+}
+.button-7:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: 100%;
+  background: #C4F1FF;
+  transition: .3s ease-in-out;
+}
+.button-7:hover:before {
+  width: 100%;
+}
